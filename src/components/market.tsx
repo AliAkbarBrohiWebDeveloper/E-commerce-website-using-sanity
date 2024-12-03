@@ -38,7 +38,7 @@ const Market = () => {
     <div className="text-center">
 
 <h4 className="text-2xl  font-bold ">Caring is the new marketing</h4>
-<p className="mt-3">The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+<p className="mt-3">The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who is joining the community, read about how our community are increasing their membership income and lot iss more.​</p>
 
     </div>
 <div className="flex justify-evenly items-center flex-col md:flex-row text-center mt-8 ">

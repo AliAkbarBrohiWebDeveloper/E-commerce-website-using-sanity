@@ -1,4 +1,4 @@
-export default{
+const customerSection={
     name:"customerSection",
     tittle:"Customer Section",
     type:"document",
@@ -27,3 +27,5 @@ export default{
     ]
 
 }
+
+export default customerSection

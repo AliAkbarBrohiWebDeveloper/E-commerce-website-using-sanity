@@ -1,6 +1,8 @@
 import { client } from "@/sanity/lib/client"
 import { urlFor } from "@/sanity/lib/image";
 import Wrapper from "./sharebale/Wrapper";
+import Image from "next/image";
+
 
 
 
@@ -32,7 +34,17 @@ image,
 <main className="flex justify-between items-center gap-12 flex-col md:flex-row">
 <div>
 
-<img src={urlFor(result.image).url()} alt="middle-banner" height={1000} width={1000} className="mt-6 " />
+{/* <img src={urlFor(result.image).url()} alt="middle-banner" height={1000} width={1000} className="mt-6 " /> */}
+
+
+<Image
+  src={urlFor(result.image).url()}
+  alt="middle-banner"
+  width={1000}
+  height={1000}
+  className="mt-6"
+/>
+
 
 </div>
 <div>

@@ -1,6 +1,6 @@
 
 
-export default {
+const navbar= {
     name: 'navbar',
     title: 'Navbar',
     type: 'document',
@@ -63,4 +63,5 @@ export default {
       
     ],
   }
+  export default navbar
   

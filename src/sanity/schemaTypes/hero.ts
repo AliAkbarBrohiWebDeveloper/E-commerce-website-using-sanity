@@ -1,4 +1,4 @@
-export default {
+const heroSection= {
     name: 'heroSection',
     title: 'Hero Section',
     type: 'document',
@@ -29,4 +29,4 @@ export default {
       }
     ]
   }
-  
+  export default heroSection

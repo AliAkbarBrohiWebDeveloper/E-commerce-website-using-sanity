@@ -1,4 +1,4 @@
-export default{
+const middleSection={
     name:"middleSection",
     tittle:"Middle Section",
     type:"document",
@@ -33,3 +33,4 @@ type:"string",
     ]
 
 }
+export default middleSection

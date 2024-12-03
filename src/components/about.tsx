@@ -2,6 +2,7 @@ import { client } from '@/sanity/lib/client'
 import { urlFor } from '@/sanity/lib/image';
 import React from 'react'
 import Wrapper from './sharebale/Wrapper';
+import Image from 'next/image';
 
 const About =  async  () => {
 const data=  await client.fetch(`
@@ -29,7 +30,17 @@ image,
 <main className="flex justify-between items-center gap-12 flex-col md:flex-row">
 <div>
 
-<img src={urlFor(data.image).url()} alt="middle-banner" height={1000} width={1000} className="mt-6 " />
+{/* <img src={urlFor(data.image).url()} alt="middle-banner" height={1000} width={1000} className="mt-6 " /> */}
+
+
+<Image
+  src={urlFor(data.image).url()}
+  alt="middle-banner"
+  width={1000}
+  height={1000}
+  className="mt-6"
+/>
+
 
 </div>
 <div>
