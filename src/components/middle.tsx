@@ -2,7 +2,7 @@ import { client } from "@/sanity/lib/client"
 import { urlFor } from "@/sanity/lib/image"
 import Wrapper from "./sharebale/Wrapper"
 import Image from "next/image"
-Image
+
 
 
 
