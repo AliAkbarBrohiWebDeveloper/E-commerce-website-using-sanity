@@ -40,14 +40,14 @@ const heroSecdat= await client.fetch(`
 </div>
 <div>
 
-{/* <img src={urlFor(heroSecdat.image).url()} alt="hero-banner" height={400} width={400} className="mt-6 " /> */}
+
 
 
 <Image
   src={urlFor(heroSecdat.image).url()}
   alt="middle-banner"
-  width={1000}
-  height={1000}
+  width={600}
+  height={600}
   className="mt-6"
 />
 

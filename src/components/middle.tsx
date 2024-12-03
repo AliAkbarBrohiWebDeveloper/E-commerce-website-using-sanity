@@ -35,7 +35,7 @@ image,
 <main className="flex justify-between items-center gap-12 flex-col md:flex-row">
 <div>
 
-{/* <img src={urlFor(response.image).url()} alt="middle-banner" height={1000} width={1000} className="mt-6 " /> */}
+
 
 <Image
   src={urlFor(response.image).url()}
