@@ -64,8 +64,8 @@ const res=await client.fetch(`
 
 <Sheet>
   <SheetTrigger className="md:hidden sm:block"><Menu/></SheetTrigger>
-  <SheetContent>
-    <SheetHeader>
+  <SheetContent side="left">
+    <SheetHeader >
       <SheetTitle></SheetTitle>
       <SheetDescription>
       <ul className="flex flex-col gap-y-6 text-xl font-bold">

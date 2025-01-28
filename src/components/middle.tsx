@@ -4,9 +4,6 @@ import Wrapper from "./sharebale/Wrapper"
 import Image from "next/image"
 
 
-
-
-
 const Middle = async  () => {
 
 const response=await client.fetch(`

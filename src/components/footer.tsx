@@ -1,11 +1,9 @@
-import Wrapper from "./sharebale/Wrapper"
-
 
 const Footer = () => {
   return (
-    <Wrapper>
-    <footer className="mt-20 bg-black text-white">
-<div className="container grid grid-cols-2 md:grid-cols-4">
+
+    <footer className="mt-20 bg-black text-white h-[300px] w-auto">
+<div className="container grid grid-cols-2 md:grid-cols-4 mx-3 py-3">
 
 <div>
 
@@ -78,7 +76,7 @@ const Footer = () => {
 
 
     </footer>
-    </Wrapper>
+
   )
 }
 

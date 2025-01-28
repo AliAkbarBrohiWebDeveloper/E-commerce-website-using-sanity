@@ -13,11 +13,7 @@ image,
   button
 
     
-  }
-    
-
-    
-    `)
+  }  `)
     console.log(data);
     
 

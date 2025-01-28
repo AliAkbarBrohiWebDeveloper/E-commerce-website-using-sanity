@@ -5,9 +5,6 @@ import middle from './middle'
 import about from './about'
 import customer from './customer'
 
-
-
-
 export const schema: { types: SchemaTypeDefinition[] } = {
   types: [navbar,hero,middle,about,customer]
 }
